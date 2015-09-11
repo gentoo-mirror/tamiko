@@ -1,0 +1,10 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+www-client/chromium:hidpi - Enable support for high-resolution screens (high dots per inch)
+www-client/chromium:hotwording - Enable voice-recognition support (Ok Google)
+www-client/chromium:pic - Disable optimized assembly code that is not PIC friendly
+www-client/chromium:proprietary-codecs - Enable proprietary codecs like H.264, MP3
+www-client/chromium:tcmalloc - Use bundled tcmalloc instead of system malloc
+www-client/chromium:widevine - DRM...

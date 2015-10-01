@@ -188,6 +188,7 @@ src_prepare() {
 	# fi
 
 	epatch "${FILESDIR}/${PN}-system-jinja-r7.patch"
+	epatch "${FILESDIR}/${PN}-tracing-r0.patch"
 
 	epatch_user
 
@@ -465,24 +466,26 @@ src_configure() {
 
 		# Prevent libvpx build failures. Bug 530248, 544702, 546984.
 		if [[ ${myarch} == amd64 || ${myarch} == x86 ]]; then
-			filter-flags -mno-mmx -mno-sse2 -mno-ssse3 -mno-sse4.1 -mno-avx2
+			filter-flags -mno-mmx -mno-sse2 -mno-ssse3 -mno-sse4.1 -mno-avx -mno-avx2
 		fi
 	fi
 
 	append-cppflags '-DWIDEVINE_CDM_VERSION_STRING=\"DRMSUCKS\"'
 
 	# Make sure the build system will use the right tools, bug #340795.
-	tc-export AR CC CXX RANLIB
+	tc-export AR CC CXX NM
 
 	# Tools for building programs to be executed on the build system, bug #410883.
-	export AR_host=$(tc-getBUILD_AR)
-	export CC_host=$(tc-getBUILD_CC)
-	export CXX_host=$(tc-getBUILD_CXX)
-	export LD_host=${CXX_host}
+	if tc-is-cross-compiler; then
+		export AR_host=$(tc-getBUILD_AR)
+		export CC_host=$(tc-getBUILD_CC)
+		export CXX_host=$(tc-getBUILD_CXX)
+		export NM_host=$(tc-getBUILD_NM)
+	fi
 
 	# Bug 491582.
 	export TMPDIR="${WORKDIR}/temp"
-	mkdir -m 755 "${TMPDIR}" || die
+	mkdir -p -m 755 "${TMPDIR}" || die
 
 	local build_ffmpeg_args=""
 	if use pic && [[ "${ffmpeg_target_arch}" == "ia32" ]]; then

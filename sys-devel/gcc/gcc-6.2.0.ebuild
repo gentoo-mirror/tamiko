@@ -22,7 +22,7 @@ PATCH_VER="1.0"
 
 inherit toolchain
 
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 
 RDEPEND=""
 DEPEND="${RDEPEND}

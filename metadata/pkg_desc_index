@@ -1,2 +1,3 @@
 app-crypt/lazy-random 9999: A fast rng-pipe
 media-fonts/ancient-fonts 2.57: Unicode Fonts for Ancient Scripts
+sys-devel/gcc 6.2.0: The GNU Compiler Collection

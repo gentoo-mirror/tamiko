@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tamiko@gentoo.org</email>
+		<name>Matthias Maier</name>
+	</maintainer>
+	<use>
+	</use>
+	<longdescription lang="en">
+		Python 3 module to inspect btrfs filesystems
+	</longdescription>
+	<upstream>
+		<remote-id type="github">knorrie/python-btrfs</remote-id>
+	</upstream>
+</pkgmetadata>

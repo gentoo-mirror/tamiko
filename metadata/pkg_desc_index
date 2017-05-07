@@ -1,6 +1,5 @@
 app-crypt/lazy-random 9999: A fast rng-pipe
 dev-python/python-btrfs 6: Python 3 module to inspect btrfs filesystems
 media-fonts/ancient-fonts 2.57: Unicode Fonts for Ancient Scripts
-sys-devel/gcc 7.1.0: The GNU Compiler Collection
 sys-fs/btrfs-heatmap 6: Python 3 script to draw a heatmap of a btrfs filesystem
 sys-libs/musl-obstack 9999: standalone library to implement GNU libc's obstack

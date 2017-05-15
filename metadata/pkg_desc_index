@@ -1,4 +1,5 @@
 app-crypt/lazy-random 9999: A fast rng-pipe
+app-vim/vim-multiple-cursors 2.2: vim plugin: Sublime Text's awesome multiple selection feature for Vim
 dev-python/python-btrfs 6: Python 3 module to inspect btrfs filesystems
 media-fonts/ancient-fonts 2.57: Unicode Fonts for Ancient Scripts
 sys-fs/btrfs-heatmap 6: Python 3 script to draw a heatmap of a btrfs filesystem

@@ -43,6 +43,7 @@ CHECKREQS_DISK_BUILD="3584M"
 
 PATCHES=(
 	"${FILESDIR}"/${P}-vtk_fixes.patch
+	"${FILESDIR}"/${P}-buildsystem.patch
 	)
 
 pkg_setup() {

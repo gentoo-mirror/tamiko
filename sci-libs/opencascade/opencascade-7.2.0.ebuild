@@ -14,7 +14,6 @@ SLOT="${PV}"
 KEYWORDS="~amd64 ~x86"
 IUSE="debug doc examples freeimage gl2ps java tbb test +vtk"
 
-MY_VTK="vtk-7.1"
 RDEPEND="app-eselect/eselect-opencascade
 	dev-lang/tcl:0=
 	dev-lang/tk:0=
@@ -30,7 +29,7 @@ RDEPEND="app-eselect/eselect-opencascade
 	gl2ps? ( x11-libs/gl2ps )
 	java? ( >=virtual/jdk-0:= )
 	tbb? ( dev-cpp/tbb )
-	vtk? ( =sci-libs/${MY_VTK}*[rendering] )"
+	vtk? ( =sci-libs/vtk-8.1*[rendering] )"
 DEPEND="${RDEPEND}
 	doc? ( app-doc/doxygen )"
 

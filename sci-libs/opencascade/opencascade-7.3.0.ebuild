@@ -41,8 +41,8 @@ CHECKREQS_MEMORY="256M"
 CHECKREQS_DISK_BUILD="3584M"
 
 PATCHES=(
-	"${FILESDIR}"/${P}-vtk_fixes.patch
-	"${FILESDIR}"/${P}-buildsystem.patch
+	"${FILESDIR}"/${PN}-7.2.0-vtk_fixes.patch
+	"${FILESDIR}"/${PN}-7.2.0-buildsystem.patch
 	)
 
 pkg_setup() {

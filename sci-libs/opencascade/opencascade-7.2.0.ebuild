@@ -35,7 +35,7 @@ DEPEND="${RDEPEND}
 
 # https://bugs.gentoo.org/show_bug.cgi?id=352435
 # https://www.gentoo.org/foundation/en/minutes/2011/20110220_trustees.meeting_log.txt
-RESTRICT="bindist"
+RESTRICT="bindist mirror fetch"
 
 CHECKREQS_MEMORY="256M"
 CHECKREQS_DISK_BUILD="3584M"

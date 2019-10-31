@@ -3,4 +3,5 @@ dev-python/python-btrfs 9: Python 3 module to inspect btrfs filesystems
 media-fonts/ancient-fonts 2.57: Unicode Fonts for Ancient Scripts
 net-misc/udptunnel 1.1: Tunnel UDP packets bi-directionally over a TCP connection
 sci-libs/ginkgo 9999: Numerical linear algebra software package
+sys-apps/likwid 4.3.4-r50: A performance-oriented tool suite for x86 multicore environments
 sys-fs/btrfs-heatmap 7: Python 3 script to draw a heatmap of a btrfs filesystem

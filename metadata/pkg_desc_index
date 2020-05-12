@@ -1,7 +1,6 @@
 app-crypt/lazy-random 9999: A fast rng-pipe
 dev-python/python-btrfs 11: Python 3 module to inspect btrfs filesystems
 media-fonts/ancient-fonts 2.57: Unicode Fonts for Ancient Scripts
-media-gfx/displaycal 3.8.9.3: Display calibration and characterization powered by Argyll CMS
 net-analyzer/flent 1.3.2: The FLExible Network Tester
 net-misc/udptunnel 1.1: Tunnel UDP packets bi-directionally over a TCP connection
 sci-libs/ginkgo 9999: Numerical linear algebra software package

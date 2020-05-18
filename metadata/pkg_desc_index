@@ -4,5 +4,5 @@ media-fonts/ancient-fonts 2.57: Unicode Fonts for Ancient Scripts
 net-analyzer/flent 1.3.2: The FLExible Network Tester
 net-misc/udptunnel 1.1: Tunnel UDP packets bi-directionally over a TCP connection
 sci-libs/ginkgo 9999: Numerical linear algebra software package
-sys-apps/likwid 4.3.4-r50: A performance-oriented tool suite for x86 multicore environments
+sys-apps/likwid 4.3.4-r50 5.0.1-r50: A performance-oriented tool suite for x86 multicore environments
 sys-fs/btrfs-heatmap 8: Python 3 script to draw a heatmap of a btrfs filesystem

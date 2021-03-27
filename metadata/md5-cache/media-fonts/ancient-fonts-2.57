@@ -1,0 +1,13 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup
+DESCRIPTION=Unicode Fonts for Ancient Scripts
+EAPI=7
+HOMEPAGE=http://users.teilar.gr/~g1951d/
+INHERIT=font
+IUSE=X
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://debian/pool/main/t/ttf-ancient-fonts/ttf-ancient-fonts_2.57.orig.tar.gz
+_eclasses_=font	0667878c2b594871023dd1833d05996f
+_md5_=11cc2a687173476d258e517cca56056d

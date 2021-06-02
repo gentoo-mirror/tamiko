@@ -26,7 +26,7 @@ DEPEND="${RDEPEND}"
 
 src_install()
 {
-	newbin heatmap.py btrfs-heatmap
+	dobin btrfs-heatmap
 	python_fix_shebang "${ED}"/usr/bin/btrfs-heatmap
 	default
 }

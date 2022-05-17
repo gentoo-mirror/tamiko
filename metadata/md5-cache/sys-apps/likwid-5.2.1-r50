@@ -12,5 +12,5 @@ LICENSE=GPL-3+ BSD MIT
 RDEPEND=dev-lang/perl fortran? ( virtual/fortran )
 SLOT=0
 SRC_URI=https://ftp.fau.de/pub/likwid/likwid-5.2.1.tar.gz
-_eclasses_=fcaps	babe6282ea5c195981bd302af1adaf3a	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	fortran-2	72d28c6872beb1e7cb99684b0ae4715d	linux-info	dcbf4f67bc38bee48e9d69a4344e8059
+_eclasses_=fcaps	babe6282ea5c195981bd302af1adaf3a	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	fortran-2	72d28c6872beb1e7cb99684b0ae4715d	linux-info	dcbf4f67bc38bee48e9d69a4344e8059
 _md5_=7d7f8aa1209cd8e7cff193e54b3bc7e4

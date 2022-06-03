@@ -5,5 +5,4 @@ media-fonts/symbola 13.00: Unicode font for Latin, IPA Extensions, Greek, Cyrill
 net-analyzer/flent 1.3.2 2.0.0: The FLExible Network Tester
 net-misc/udptunnel 1.1: Tunnel UDP packets bi-directionally over a TCP connection
 sci-libs/ginkgo 9999: Numerical linear algebra software package
-sys-apps/likwid 5.1.1-r50 5.2.0-r50 5.2.1-r50: A performance-oriented tool suite for x86 multicore environments
 sys-fs/btrfs-heatmap 9: Python 3 script to draw a heatmap of a btrfs filesystem

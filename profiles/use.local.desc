@@ -3,4 +3,3 @@
 # * generated automatically using pmaint *
 
 net-analyzer/flent:plots - Enable drawing plots
-x11-misc/sddm:elogind - Use sys-auth/elogind for session tracking.

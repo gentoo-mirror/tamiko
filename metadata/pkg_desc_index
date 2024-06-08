@@ -1,6 +1,4 @@
 app-crypt/lazy-random 9999: A fast rng-pipe
-dev-python/python-btrfs 13: Python 3 module to inspect btrfs filesystems
 media-fonts/ancient-fonts 2.57: Unicode Fonts for Ancient Scripts
 media-fonts/symbola 13.00: Unicode font for Latin, IPA Extensions, Greek, Cyrillic and many Symbol Blocks
 net-misc/udptunnel 1.1: Tunnel UDP packets bi-directionally over a TCP connection
-sys-fs/btrfs-heatmap 9: Python 3 script to draw a heatmap of a btrfs filesystem

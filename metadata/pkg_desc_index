@@ -1,3 +1,4 @@
 app-crypt/lazy-random 9999: A fast rng-pipe
 media-fonts/ancient-fonts 2.57: Unicode Fonts for Ancient Scripts
 media-fonts/symbola 13.00: Unicode font for Latin, IPA Extensions, Greek, Cyrillic and many Symbol Blocks
+net-misc/kea 2.6.1: High-performance production grade DHCPv4 & DHCPv6 server

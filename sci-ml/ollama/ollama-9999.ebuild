@@ -18,7 +18,6 @@ if [[ ${PV} == *9999* ]]; then
 else
 	SRC_URI="
 		https://github.com/ollama/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz
-		https://github.com/negril/gentoo-overlay-vendored/raw/refs/heads/blobs/${P}-vendor.tar.xz
 	"
 	KEYWORDS="~amd64"
 fi
@@ -39,7 +38,6 @@ X86_CPU_FLAGS=(
 
 CPU_FLAGS=( "${X86_CPU_FLAGS[@]/#/cpu_flags_x86_}" )
 IUSE="${CPU_FLAGS[*]} cuda blas mkl rocm"
-# IUSE+=" opencl vulkan"
 
 COMMON_DEPEND="
 	cuda? (
@@ -182,21 +180,7 @@ src_prepare() {
 src_configure() {
 	local mycmakeargs=(
 		-DGGML_CCACHE="no"
-
-		# -DGGML_CPU="yes"
 		-DGGML_BLAS="$(usex blas)"
-		# -DGGML_CUDA="$(usex cuda)"
-		# -DGGML_HIP="$(usex rocm)"
-
-		# -DGGML_METAL="yes" # apple
-		# missing from ml/backend/ggml/ggml/src/
-		# -DGGML_CANN="yes"
-		# -DGGML_MUSA="yes"
-		# -DGGML_RPC="yes"
-		# -DGGML_SYCL="yes"
-		# -DGGML_KOMPUTE="$(usex kompute)"
-		# -DGGML_OPENCL="$(usex opencl)"
-		# -DGGML_VULKAN="$(usex vulkan)"
 	)
 
 	if use blas; then

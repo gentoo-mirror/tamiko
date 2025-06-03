@@ -142,7 +142,7 @@ src_prepare() {
 			! use cpu_flags_x86_f16c ||
 			! use cpu_flags_x86_avx2 ||
 			! use cpu_flags_x86_fma3 ||
-			! use cpu_flags_x86_avx_vnni; then
+			! use cpu_flags_x86_avx512_vnni; then
 			sed -e "/ggml_add_cpu_backend_variant(alderlake/s/^/# /g" -i ml/backend/ggml/ggml/src/CMakeLists.txt || die
 			# AVX F16C AVX2 FMA AVX_VNNI
 		fi

@@ -1,4 +1,3 @@
 app-crypt/lazy-random 9999: A fast rng-pipe
 media-fonts/ancient-fonts 2.57: Unicode Fonts for Ancient Scripts
-media-fonts/symbola 13.00: Unicode font for Latin, IPA Extensions, Greek, Cyrillic and many Symbol Blocks
 sci-ml/ollama 9999: Get up and running with Llama 3, Mistral, Gemma, and other language models.

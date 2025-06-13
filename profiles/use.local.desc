@@ -2,9 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-net-misc/kea:openssl - Use dev-libs/openssl instead of dev-libs/botan
-net-misc/kea:samples - Install sample configuration files
-net-misc/kea:shell - Install kea-shell text management client for Control Agent
 sci-ml/ollama:cuda - Enable NVIDIA CUDA support
 sci-ml/ollama:mkl - Use sci-libs/mkl for blas, lapack and sparse blas routines
 sci-ml/ollama:rocm - Enable ROCm gpu computing support

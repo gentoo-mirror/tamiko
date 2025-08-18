@@ -1,3 +1,4 @@
 app-crypt/lazy-random 9999: A fast rng-pipe
 media-fonts/ancient-fonts 2.57: Unicode Fonts for Ancient Scripts
 sci-ml/ollama 9999: Get up and running with Llama 3, Mistral, Gemma, and other language models.
+sys-apps/fwupd 2.0.12 2.0.13: Aims to make updating firmware on Linux automatic, safe and reliable

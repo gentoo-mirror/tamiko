@@ -1,3 +1,4 @@
+app-admin/coreboot-utils 25.06: A selection from coreboot/utils useful in general
 app-crypt/lazy-random 9999: A fast rng-pipe
 media-fonts/ancient-fonts 2.57: Unicode Fonts for Ancient Scripts
 sci-ml/ollama 9999: Get up and running with Llama 3, Mistral, Gemma, and other language models.
